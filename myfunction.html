@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <script>
+        // Personal Data object
+            const personalData = {
+                name: 'Philip Greg Ray M. Hablo',
+                ownersequity: 400,
+                liabilities: 400
+            }
+            
+        // function to calculate assets
+            function calculate(p1,p2) {
+                return p1 + p2 ; 
+            }
+
+            let result = calculate(personalData.ownersequity, personalData.liabilities);
+
+        // displaying personal data and calculate data
+
+            function displayData(personalData, calculate){
+            console.log("Name: " + personalData.name);
+            console.log("Owner's Equity: " + personalData.ownersequity);
+            console.log("Liabilies: " + personalData.liabilities);
+            console.log("Total Assets:" + result);
+            }
+
+            displayData(personalData, calculate)
+    </script>
+
+           
+</body>
+</html>
