@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <Title>Welcome</Title>
+</HEAD>
+<BODY onload="alert('Welcome!')">   
+  <script type="text/javascript">
+      function show_confirm()
+      { var r = confirm("Will you proceed?");
+          if( r = true ){
+              document.write("Welcome!<br>Created by: Philip Greg Ray M. Hablo");
+              return true;
+          }else{
+              window.close();
+          }  
+      }
+  </script>
+  <form> 
+      <input type="button" value="Enter" onclick="show_confirm();">
+  </form>  
+</BODY>            
+</HTML>       
